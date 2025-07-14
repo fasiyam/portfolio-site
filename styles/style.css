@@ -22,7 +22,6 @@ body {
 .navbar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
-    background-color: #fff;
     
     display: flex;
     justify-content: center;
@@ -34,6 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
     
     border: 0.2rem solid #E5E5E5;
     backdrop-filter: blur(0.4rem);
@@ -59,4 +59,29 @@ body {
     a {
         color: #fff;
     }
+}
+
+
+
+/* hero section */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3.6rem 8rem 2.4rem 8rem;
+}
+
+.title {
+    font-size: 6.4rem;
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hero-para {
+    font-size: 3.8rem;
+    color: rgba(117, 117, 117, 1);
+    line-height: calc(64 / 38);
 }
