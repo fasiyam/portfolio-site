@@ -62,13 +62,14 @@ body {
 }
 
 
-
 /* hero section */
 
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
     margin: 3.6rem 8rem 2.4rem 8rem;
+    padding: 3.6rem 0;
 }
 
 .title {
@@ -84,4 +85,44 @@ body {
     font-size: 3.8rem;
     color: rgba(117, 117, 117, 1);
     line-height: calc(64 / 38);
+}
+
+
+/* About me section design */
+
+.about-me {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.description {
+    margin-left: 8rem;
+    border: 2px solid #E5E5E5;
+    border-radius: 1.6rem;
+    padding: 3.2rem;
+}
+
+.description h2 {
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 2.4rem;
+}
+
+.description p {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 2rem;
+}
+
+
+
+.about-me img {
+    max-width: 40rem;
+    width: 100%;
+    height: auto;
+    border-radius: 1.6rem;
 }
